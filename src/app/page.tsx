@@ -235,7 +235,7 @@ export default function Home() {
         <div style={styles.sectionContainer}>
           <div style={styles.sectionHeader}>
             <div style={styles.sectionBadge}>Contact</div>
-            <h2 style={styles.sectionTitle}>Get in Touch</h2>
+            <h2 style={styles.sectionTitle1}>Get in Touch</h2>
             <p style={styles.sectionSubtitle}>
               Have questions? Our team is here to help you succeed
             </p>
@@ -386,6 +386,13 @@ const styles = {
     marginBottom: '1rem',
   },
   sectionTitle: {
+    fontSize: '3rem',
+    fontWeight: '700',
+    color: 'black',
+    marginBottom: '1.5rem',
+    lineHeight: '1.2',
+  },
+  sectionTitle1: {
     fontSize: '3rem',
     fontWeight: '700',
     color: 'white',
