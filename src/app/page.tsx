@@ -1,4 +1,5 @@
 import './page.css';
+import './responsive-fixes.css';
 import { Award, Users, Building2, Trophy, Calendar, Phone, Mail } from 'lucide-react';
 import ImageSlider from './components/image-slider';
 export default function Home() {
@@ -100,8 +101,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div style={styles.historyContent}>
-            <div style={styles.historyStats}>
+          <div style={styles.historyContent} className="history-content">
+            <div style={styles.historyStats} className="history-stats">
               <div style={styles.statCard}>
                 <h3 style={styles.statNumber}>14</h3>
                 <p style={styles.statLabel}>Years of Awards</p>
@@ -120,19 +121,19 @@ export default function Home() {
               </div>
             </div>
 
-            <div style={styles.historyText}>
-              <p style={styles.historyParagraph}>
+            <div style={styles.historyText} className="history-text">
+              <p style={styles.historyParagraph} className="history-paragraph">
                 The IEEE CS-InApp Awards began as a vision to create a platform where student innovation could flourish and be recognized.
                 What started as a regional competition has grown into an internationally recognized program that attracts the brightest minds
                 from universities worldwide.
               </p>
-              <p style={styles.historyParagraph}>
+              <p style={styles.historyParagraph} className="history-paragraph">
                 Each year, we witness groundbreaking projects that push the boundaries of technology, from AI-powered solutions to
                 sustainable computing innovations. Our alumni have gone on to establish successful startups, join leading tech companies,
                 and continue making significant contributions to the field of computer science.
               </p>
-              <div style={styles.historyLink}>
-                <a href="#" style={styles.linkButton}>
+              <div style={styles.historyLink} className="history-link">
+                <a href="#" style={styles.linkButton} className="history-link-btn">
                   View Previous Year Winners →
                 </a>
               </div>
@@ -306,13 +307,13 @@ const styles = {
     objectFit: 'contain',
   } as React.CSSProperties,
   inappLogo: {
-    maxWidth: '120%',
-    maxHeight: '120%',
+    maxWidth: '500%',
+    maxHeight: '500%',
     objectFit: 'contain',
   } as React.CSSProperties,
   ieeecsLogo: {
-    maxWidth: '80%',
-    maxHeight: '80%',
+    maxWidth: '50%',
+    maxHeight: '50%',
     objectFit: 'contain',
   } as React.CSSProperties,
   
