@@ -8,7 +8,7 @@ export default function Home() {
       <section style={styles.hero}>
          <div style={styles.logoRow} className="logoRow">
             <div style={styles.logoContainer} className="logoContainer">
-              <img src="/inapp-logo1.png" alt="InApp Logo" style={styles.inappLogo} className="inapp-logo"/>
+              <img src="/inapp-logo12.png" alt="InApp Logo" style={styles.inappLogo} className="inapp-logo"/>
             </div>
             <div style={styles.logoContainer}>
               <img src="/logo.png" alt="IEEE CS Logo" style={styles.ieeecsLogo} className="ieeecslogo"/>
@@ -48,13 +48,12 @@ export default function Home() {
                 <Award size={32} color="white" />
               </div>
               <div style={styles.aboutCardContent}>
-                <h3 style={styles.aboutCardTitle}>IEEE CS - InApp Awards</h3>
+                <h3 style={styles.aboutCardTitle}> InApp - IEEE CS Awards</h3>
                 <p style={styles.aboutCardText}>
-                  The objective behind the establishment of IEEE CS-InApp Awards is to provide a challenging and creative ground for students to showcase their skills in software development.
-                </p>
+                  Established to provide an engaging and supportive platform for students to showcase their skills in software development, the InApp Awards serve as a space for aspiring developers to bring their ideas to life. By recognizing outstanding projects and solutions, these awards nurture innovation and inspire students to push the boundaries.
+                  </p>
                 <p style={styles.aboutCardText}>
-                  For the 14th edition, we invite students internationally to submit their projects for evaluation by industry pioneers. This prestigious competition has been recognizing outstanding student innovations for over a decade.
-                </p>
+                  A panel of industry experts evaluates the submissions, ensuring that the best ideas receive the recognition they deserve. Beyond celebrating technical excellence, the InApp Awards aim to empower the next generation to become future leaders.                </p>
               </div>
             </div>
 
@@ -65,11 +64,10 @@ export default function Home() {
               <div style={styles.aboutCardContent}>
                 <h3 style={styles.aboutCardTitle}>IEEE Computer Society</h3>
                 <p style={styles.aboutCardText}>
-                  The IEEE Computer Society Kerala Chapter is a professional organization promoting the advancement of computer science and engineering in Kerala and beyond.
+                    The IEEE Computer Society (CS) Kerala Chapter, established in 1985, is the largest Computer Society Chapter in the world, encompassing 48 Student Branch Chapters and more than 2,400 members as of 2025. Recognized for driving change and innovation in computer science and engineering, the Chapter organizes major events like the All Kerala Computer Society Student Convention (AKCSSC) and the All India Computer Society Student and Young Professional Congress (AICSSYC-23).
                 </p>
                 <p style={styles.aboutCardText}>
-                  We organize technical talks, workshops, seminars, and conferences while supporting students through chapters, competitions, and scholarships. Our mission is to foster innovation and excellence in computing education and research.
-                </p>
+                    The Chapter owes much of its success to the commitment and leadership of its dedicated volunteers, whose unwavering efforts have earned them esteemed roles within the IEEE community. Their passion has helped deliver impactful programs that have won awards such as the IEEE Computer Society (Global) Outstanding Chapter Award (2018), Early Career Professionals Engagement Award (2022), and the IEEE Kerala Section’s Outstanding Large Society Chapter Award (2023). With an unwavering commitment to excellence, the Chapter encourages collaboration and empowers members to drive meaningful change in the field of technology.                </p>
               </div>
             </div>
 
@@ -123,20 +121,19 @@ export default function Home() {
 
             <div style={styles.historyText} className="history-text">
               <p style={styles.historyParagraph} className="history-paragraph">
-                The IEEE CS-InApp Awards began as a vision to create a platform where student innovation could flourish and be recognized.
-                What started as a regional competition has grown into an internationally recognized program that attracts the brightest minds
-                from universities worldwide.
+                The InApp Awards have a longstanding tradition of encouraging innovation and recognizing excellence in software development among students. Since their inception, the awards have aimed to provide a platform for young developers to showcase their skills and creative solutions to real-world problems.
               </p>
               <p style={styles.historyParagraph} className="history-paragraph">
-                Each year, we witness groundbreaking projects that push the boundaries of technology, from AI-powered solutions to
-                sustainable computing innovations. Our alumni have gone on to establish successful startups, join leading tech companies,
-                and continue making significant contributions to the field of computer science.
+                In the 14th edition, the InApp Awards reached a significant milestone by partnering with Kerala Technological University. The projects were evaluated by a distinguished panel of industry pioneers, ensuring that the best and most innovative solutions received the recognition they deserved.
               </p>
-              <div style={styles.historyLink} className="history-link">
+              <p style={styles.historyParagraph} className="history-paragraph">
+                Building on this success, the 15th edition of the InApp Awards returns with renewed enthusiasm, continuing its mission to celebrate and nurture the talent of aspiring developers. This year’s edition remains committed to encouraging students to push their boundaries, innovate, and make an impact in the world of software development.
+              </p>
+              {/* <div style={styles.historyLink} className="history-link">
                 <a href="#" style={styles.linkButton} className="history-link-btn">
                   View Previous Year Winners →
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -148,7 +145,7 @@ export default function Home() {
             <div style={styles.sectionBadge}>Awards</div>
             <h2 style={styles.sectionTitle}>Competition Details & Guidelines</h2>
             <p style={styles.sectionSubtitle}>
-              Everything you need to know about participating in the IEEE CS InApp Awards
+              Everything you need to know about participating in the  InApp - IEEE CS Awards
             </p>
           </div>
 
@@ -160,23 +157,58 @@ export default function Home() {
                 <h3 style={styles.awardsCardTitle}>Award Rules</h3>
               </div>
               <div style={styles.awardsCardContent}>
-                <ol style={styles.rulesList}>
-                  <li>There is no fee for participation.</li>
-                  <li>Open to all B.E/B.Tech students from affiliated colleges/Universities worldwide.</li>
-                  <li>Teams can have up to five members from the same Institution with a faculty guide.</li>
-                  <li>Submit a two-page abstract in the specified format.</li>
-                  <li>Project must be original work.</li>
-                  <li>Submit certified abstract online.</li>
-                  <li>Two-stage expert evaluation process.</li>
-                  <li>Winners selected for second round via email notification.</li>
-                  <li>Second round evaluation through video conferencing.</li>
-                  <li>Final demonstration before judging panel via video conferencing.</li>
-                  <li>Evaluation based on Innovativeness, Feasibility, and Relevance.</li>
-                  <li>Award evaluation committee decisions are final.</li>
-                </ol>
-              </div>
-            </div>
+  <p><strong>1. <em>Zero Fees, Unlimited Potential</em></strong><br/>
+  Participation is absolutely free. No registration or submission fees apply at any stage.</p>
 
+  <p><strong>2. <em>Who Can Participate</em></strong><br/>
+  <ul>
+    <li>Open to all <strong>B.E./B.Tech</strong> students from accredited institutions and universities worldwide.</li>
+    <li>Teams may include up to <strong>five students</strong> from the <strong>same institution</strong>, guided by a <strong>faculty mentor</strong>.</li>
+  </ul></p>
+
+  <p><strong>3. <em>Submission Requirements</em></strong><br/>
+  To enter the arena:
+  <ul>
+    <li>Craft a powerful two-page abstract using the official template.</li>
+    <li>Ensure your project is entirely original, born from your own minds — no copied ideas, no recycled work.</li>
+    <li>Have your abstract certified, then submit it online.</li>
+  </ul></p>
+
+  <p><strong>4. <em>Evaluation that Mirrors the Real World</em></strong><br/>
+  Our selection process is designed to test <strong>vision, execution, and impact</strong> — just like in the real world of tech and innovation.
+  <ul>
+    <li><strong><em>Stage 1: Expert Screening</em></strong><br/>
+      <ol>
+        <li>Every abstract is reviewed by domain experts.</li>
+        <li>The most compelling entries are shortlisted and notified via email.</li>
+      </ol>
+    </li>
+    <li><strong><em>Stage 2: The Final Showdown</em></strong><br/>
+      <ol>
+        <li>Shortlisted teams will present a live demonstration of their project.</li>
+        <li>Judging takes place through video conferencing, in front of a seasoned panel of technologists, innovators, and industry leaders.</li>
+      </ol>
+    </li>
+  </ul></p>
+
+  <p><strong>5. <em>What We’re Looking For</em></strong><br/>
+  <ul>
+    <li><strong><em>Innovation:</em></strong> Is your solution daring, original, and future-facing?</li>
+    <li><strong><em>Feasibility:</em></strong> Can it work in the real world? Is it practically executable?</li>
+    <li><strong><em>Relevance:</em></strong> Does it solve a real problem or meet a real need?</li>
+  </ul></p>
+
+  <p><strong>6. <em>Decisions Are Final</em></strong><br/>
+  The verdicts of the Award Evaluation Committee are final, absolute, and based on merit.</p>
+
+  <p><strong><em>Your Journey Starts Here</em></strong><br/>
+  You’re not just entering a competition. You’re stepping onto a global stage.<br/>
+  <em>Bring your boldest ideas. We’ll bring the spotlight.</em></p>
+</div>
+
+            </div>
+            </div>
+         <div style={styles.awardsGrid1} className="awards-grid">
             {/* Prizes Card */}
             <div style={styles.awardsCard} className="awards-card">
               <div style={styles.awardsCardHeader}>
@@ -200,12 +232,12 @@ export default function Home() {
                 </div>
                 <div style={styles.bonusCard}>
                   <p style={styles.bonusText}>
-                    Cash Prizes for all Finalists
+                    Bonus: Cash Prizes — Exclusively for All Finalists
                   </p>
                 </div>
               </div>
             </div>
-          </div>
+          
 
           {/* Timeline */}
           <div style={styles.timelineCard} className="timeline-card">
@@ -231,14 +263,16 @@ export default function Home() {
             </div>
           </div>
         </div>
+        </div>
       </section>
        <section id="contact" style={styles.contactSection}>
         <div style={styles.sectionContainer}>
           <div style={styles.sectionHeader}>
             <div style={styles.sectionBadge}>Contact</div>
-            <h2 style={styles.sectionTitle1}>Get in Touch</h2>
+            <h2 style={styles.sectionTitle1}>We’re Just a Message Away </h2>
             <p style={styles.sectionSubtitle}>
-              Have questions? Our team is here to help you succeed
+              Stuck somewhere? Curious about the next step?
+              Reach out — we’re here to ensure nothing holds you back
             </p>
           </div>
 
@@ -309,6 +343,7 @@ const styles = {
   inappLogo: {
     maxWidth: '120%',
     maxHeight: '120%',
+     marginLeft: '-20%', 
     objectFit: 'contain',
   } as React.CSSProperties,
   ieeecsLogo: {
@@ -323,7 +358,7 @@ const styles = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  margin: '0 -20px',
+  margin: '0 -25px',
 },
   logoRow: {
     display: 'flex',
@@ -380,7 +415,7 @@ const styles = {
     color: 'white',
     padding: '8px 24px',
     borderRadius: '50px',
-    fontSize: '0.9rem',
+    fontSize: '1.9rem',
     fontWeight: '600',
     textTransform: 'uppercase' as const,
     letterSpacing: '1px',
@@ -394,14 +429,14 @@ const styles = {
     lineHeight: '1.2',
   },
   sectionTitle1: {
-    fontSize: '3rem',
-    fontWeight: '700',
+    fontSize: '2rem',
+    fontWeight: '500',
     color: 'white',
     marginBottom: '1.5rem',
     lineHeight: '1.2',
   },
   sectionSubtitle: {
-    fontSize: '1.4rem',
+    fontSize: '1rem',
     color: '#666',
     maxWidth: '700px',
     margin: '0 auto',
@@ -521,6 +556,12 @@ const styles = {
     background: 'linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%)',
   },
   awardsGrid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(700px, 1fr))',
+    gap: '2rem',
+    marginBottom: '3rem',
+  },
+   awardsGrid1: {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit, minmax(500px, 1fr))',
     gap: '2rem',

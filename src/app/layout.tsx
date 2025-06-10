@@ -3,7 +3,7 @@ import Navbar from './components/navbar';
 import NotificationBar from './components/notification-bar';
 
 export const metadata = {
-  title: 'InApp IEEE CS Awards',
+  title: 'InApp -  IEEE CS Awards',
   description: 'Apply for IEEE CS Awards',
 };
 
