@@ -307,8 +307,8 @@ const styles = {
     objectFit: 'contain',
   } as React.CSSProperties,
   inappLogo: {
-    maxWidth: '500%',
-    maxHeight: '500%',
+    maxWidth: '120%',
+    maxHeight: '120%',
     objectFit: 'contain',
   } as React.CSSProperties,
   ieeecsLogo: {
@@ -323,7 +323,7 @@ const styles = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  margin: '0 20px',
+  margin: '0 -20px',
 },
   logoRow: {
     display: 'flex',
