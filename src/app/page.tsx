@@ -7,11 +7,11 @@ export default function Home() {
     <div style={styles.container}>
       <section style={styles.hero}>
          <div style={styles.logoRow} className="logoRow">
-            <div style={styles.logoContainer} className="logoContainer">
+            {/* <div style={styles.logoContainer} className="logoContainer">
               <img src="/inapp-logo12.png" alt="InApp Logo" style={styles.inappLogo} className="inapp-logo"/>
-            </div>
+            </div> */}
             <div style={styles.logoContainer}>
-              <img src="/logo.png" alt="IEEE CS Logo" style={styles.ieeecsLogo} className="ieeecslogo"/>
+              <img src="/logo1.png" alt="IEEE CS Logo" style={styles.inappLogo} className="ieeecslogo"/>
             </div>
          </div>
 
@@ -352,14 +352,14 @@ const styles = {
     objectFit: 'contain',
   } as React.CSSProperties,
   inappLogo: {
-    maxWidth: '120%',
-    maxHeight: '120%',
-     marginLeft: '-20%', 
+    maxWidth: '320%',
+    maxHeight: '320%',
+    
     objectFit: 'contain',
   } as React.CSSProperties,
   ieeecsLogo: {
-    maxWidth: '50%',
-    maxHeight: '50%',
+    maxWidth: '300%',
+    maxHeight: '300%',
     objectFit: 'contain',
   } as React.CSSProperties,
   
