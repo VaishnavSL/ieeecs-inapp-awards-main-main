@@ -17,7 +17,7 @@ export default function Home() {
 
           {/* <img src="/heading.png" alt="Heading Text" style={styles.headingImage} /> */}
        
-        <h1 style={styles.heading} className="responsiveHeading">InApp - IEEE CS Student Project Awards</h1>
+        <h1 style={styles.heading} className="responsiveHeading">InApp - IEEE CS STUDENT PROJECT AWARDS</h1>
         <p style={styles.subheading} className="responsiveSubheading">Inspiring New Solutions, Propelling Innovation, Realizing Excellence</p>
        
         <a
@@ -47,13 +47,11 @@ export default function Home() {
               <div style={styles.aboutCardIcon}>
                 <Award size={32} color="white" />
               </div>
+
               <div style={styles.aboutCardContent}>
-                <h3 style={styles.aboutCardTitle}> InApp - IEEE CS Awards</h3>
-                <p style={styles.aboutCardText}>
-                  Established to provide an engaging and supportive platform for students to showcase their skills in software development, the InApp Awards serve as a space for aspiring developers to bring their ideas to life. By recognizing outstanding projects and solutions, these awards nurture innovation and inspire students to push the boundaries.
-                  </p>
-                <p style={styles.aboutCardText}>
-                  A panel of industry experts evaluates the submissions, ensuring that the best ideas receive the recognition they deserve. Beyond celebrating technical excellence, the InApp Awards aim to empower the next generation to become future leaders.                </p>
+                <h3 style={styles.aboutCardTitle}> InApp </h3>
+                <p style={styles.aboutCardText}>Founded in 2000, InApp has been at the forefront of providing cutting-edge technology solutions to businesses  worldwide. With a dedicated team of over 200 professionals and offices in the USA, India, and Japan, InApp serves a diverse clientele ranging from Fortune 500 companies to SMBs.</p>
+                <p style={styles.aboutCardText}>The company specializes in custom software development, quality assurance, mobile app development, and cloud computing services, utilizing the latest technologies like AI, blockchain, and IoT. InApp’s customer-centric approach ensures the delivery of high-quality, scalable solutions that address unique business needs, nurturing long-term relationships built on trust and innovation.</p>
               </div>
             </div>
 
@@ -64,10 +62,9 @@ export default function Home() {
               <div style={styles.aboutCardContent}>
                 <h3 style={styles.aboutCardTitle}>IEEE Computer Society</h3>
                 <p style={styles.aboutCardText}>
-                    The IEEE Computer Society (CS) Kerala Chapter, established in 1985, is the largest Computer Society Chapter in the world, encompassing 48 Student Branch Chapters and more than 2,400 members as of 2025. Recognized for driving change and innovation in computer science and engineering, the Chapter organizes major events like the All Kerala Computer Society Student Convention (AKCSSC) and the All India Computer Society Student and Young Professional Congress (AICSSYC-23).
-                </p>
+                  The IEEE Computer Society (CS) Kerala Chapter, founded in 1985, is the world’s largest Computer Society Chapter, with 48 Student Branch Chapters and over 2,400 members as of 2025. Renowned for encouraging innovation in computer science and engineering, it organizes flagship events like AKCSSC and AICSSYC-23.                </p>
                 <p style={styles.aboutCardText}>
-                    The Chapter owes much of its success to the commitment and leadership of its dedicated volunteers, whose unwavering efforts have earned them esteemed roles within the IEEE community. Their passion has helped deliver impactful programs that have won awards such as the IEEE Computer Society (Global) Outstanding Chapter Award (2018), Early Career Professionals Engagement Award (2022), and the IEEE Kerala Section’s Outstanding Large Society Chapter Award (2023). With an unwavering commitment to excellence, the Chapter encourages collaboration and empowers members to drive meaningful change in the field of technology.                </p>
+                  Its success is powered by dedicated volunteers whose leadership has earned recognitions such as the IEEE CS (Global) Outstanding Chapter Award (2018), Early Career Professionals Engagement Award (2022), and the IEEE Kerala Section’s Outstanding Large Society Chapter Award (2023). With a commitment to excellence, the Chapter inspires collaboration and meaningful change in technology.                      </p>
               </div>
             </div>
 
@@ -76,13 +73,13 @@ export default function Home() {
                 <Building2 size={32} color="white" />
               </div>
               <div style={styles.aboutCardContent}>
-                <h3 style={styles.aboutCardTitle}>InApp</h3>
+                <h3 style={styles.aboutCardTitle}>InApp - IEEE CS Student Project Awards</h3>
                 <p style={styles.aboutCardText}>
-                  Founded in 2000, InApp is a technology services company committed to excellence with a passionate team focused on delivering value through innovative solutions.
-                </p>
+                                    Established to provide an engaging and supportive platform for students to showcase their skills in software development, the InApp Awards serve as a space for aspiring developers to bring their ideas to life. By recognizing outstanding projects and solutions, these awards nurture innovation and inspire students to push the boundaries.</p>
                 <p style={styles.aboutCardText}>
-                  With offices in USA, India, Japan and a 200+ strong team, InApp serves clients ranging from Fortune 500 companies to SMBs. We specialize in digital transformation, cloud solutions, and cutting-edge software development.
-                </p>
+                
+                  A panel of industry experts evaluates the submissions, ensuring that the best ideas receive the recognition they deserve. Beyond celebrating technical excellence, the InApp Awards aim to empower the next generation to become future leaders.                </p>
+
               </div>
             </div>
           </div>
@@ -250,14 +247,28 @@ export default function Home() {
                 <div style={styles.timelineDot}></div>
                 <div style={styles.timelineInfo}>
                   <h4 style={styles.timelineEventTitle}>Call for Abstracts</h4>
-                  <p style={styles.timelineDate}>6th June, 2025</p>
+                  <p style={styles.timelineDate}>16th JUNE, 2025</p>
                 </div>
               </div>
               <div style={styles.timelineItem}>
                 <div style={styles.timelineDot}></div>
                 <div style={styles.timelineInfo}>
                   <h4 style={styles.timelineEventTitle}>Submission Deadline</h4>
-                  <p style={styles.timelineDate}>15th June, 2025</p>
+                  <p style={styles.timelineDate}>30th JUNE, 2025</p>
+                </div>
+              </div>
+               <div style={styles.timelineItem}>
+                <div style={styles.timelineDot}></div>
+                <div style={styles.timelineInfo}>
+                  <h4 style={styles.timelineEventTitle}>Initial Evaluation & Scrutiny</h4>
+                  <p style={styles.timelineDate}>JULY</p>
+                </div>
+              </div>
+               <div style={styles.timelineItem}>
+                <div style={styles.timelineDot}></div>
+                <div style={styles.timelineInfo}>
+                  <h4 style={styles.timelineEventTitle}>⁠Final Evaluation</h4>
+                  <p style={styles.timelineDate}>AUGUST</p>
                 </div>
               </div>
             </div>
@@ -268,11 +279,11 @@ export default function Home() {
        <section id="contact" style={styles.contactSection}>
         <div style={styles.sectionContainer}>
           <div style={styles.sectionHeader}>
-            <div style={styles.sectionBadge}>Contact</div>
-            <h2 style={styles.sectionTitle1}>We’re Just a Message Away </h2>
+            <div style={styles.sectionBadge}>Contact Us</div>
+            <h2 style={styles.sectionTitle1}> Stuck somewhere? Curious about the next step?
+              Reach out — we’re here to ensure nothing holds you back</h2>
             <p style={styles.sectionSubtitle}>
-              Stuck somewhere? Curious about the next step?
-              Reach out — we’re here to ensure nothing holds you back
+              
             </p>
           </div>
 
@@ -283,15 +294,15 @@ export default function Home() {
                   <Users size={24} color="white" />
                 </div>
                 <div>
-                  <h3 style={styles.contactName}>Contact Team</h3>
-                  <p style={styles.contactRole}>Awards Team</p>
+                  <h3 style={styles.contactName}>Awards Team</h3>
+                  {/* <p style={styles.contactRole}>Awards Team</p> */}
                 </div>
               </div>
               <div style={styles.contactDetails}>
                 <div style={styles.contactItem}>
                   <Mail size={18} color="#CC232E" />
                   <a href="mailto:awards@inapp.com" style={styles.contactLink}>
-                    awards@inapp.com
+                    studentawards@inapp.com
                   </a>
                 </div>
                 <div style={styles.contactItem}>
@@ -372,7 +383,7 @@ const styles = {
     fontWeight: '800',
     marginBottom: '10px',
     color: '#ffffff',
-    textTransform: 'uppercase' as React.CSSProperties['textTransform'],
+    // textTransform: 'uppercase' as React.CSSProperties['textTransform'],
 
   },
   subheading: {
@@ -429,7 +440,7 @@ const styles = {
     lineHeight: '1.2',
   },
   sectionTitle1: {
-    fontSize: '2rem',
+    fontSize: '1.2rem',
     fontWeight: '500',
     color: 'white',
     marginBottom: '1.5rem',
@@ -682,9 +693,11 @@ const styles = {
     margin: '0 0 0.5rem 0',
   },
   timelineDate: {
-    fontSize: '1rem',
-    color: '#666',
+   fontSize: '1rem',
+    color: '#CC232E',
+    fontWeight: '600',
     margin: 0,
+
   },
   contactSection: {
     padding: '8rem 0',

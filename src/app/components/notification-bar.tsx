@@ -16,7 +16,7 @@ export default function NotificationBar() {
         </div>
         <div style={styles.textContainer}>
           <span style={styles.text}>
-            🎉 <strong>Registration Now Open!</strong> Submit your abstracts by June 15th, 2025. 
+            🎉 <strong>Registration Now Open!</strong> Submit your projects by 30th June, 2025.
             <span style={styles.highlight}> Cash prizes for all finalists!</span>
           </span>
         </div>
