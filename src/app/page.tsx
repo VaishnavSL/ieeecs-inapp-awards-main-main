@@ -142,7 +142,7 @@ export default function Home() {
             <div style={styles.sectionBadge}>Awards</div>
             <h2 style={styles.sectionTitle}>Competition Details & Guidelines</h2>
             <p style={styles.sectionSubtitle}>
-              Everything you need to know about participating in the  InApp - IEEE CS Awards
+              Everything you need to know about participating in the  InApp - IEEE CS Student Project Awards
             </p>
           </div>
 
@@ -247,28 +247,28 @@ export default function Home() {
                 <div style={styles.timelineDot}></div>
                 <div style={styles.timelineInfo}>
                   <h4 style={styles.timelineEventTitle}>Call for Abstracts</h4>
-                  <p style={styles.timelineDate}>16th JUNE, 2025</p>
+                  <p style={styles.timelineDate}>16th June, 2025</p>
                 </div>
               </div>
               <div style={styles.timelineItem}>
                 <div style={styles.timelineDot}></div>
                 <div style={styles.timelineInfo}>
                   <h4 style={styles.timelineEventTitle}>Submission Deadline</h4>
-                  <p style={styles.timelineDate}>30th JUNE, 2025</p>
+                  <p style={styles.timelineDate}>30th June, 2025</p>
                 </div>
               </div>
                <div style={styles.timelineItem}>
                 <div style={styles.timelineDot}></div>
                 <div style={styles.timelineInfo}>
                   <h4 style={styles.timelineEventTitle}>Initial Evaluation & Scrutiny</h4>
-                  <p style={styles.timelineDate}>JULY</p>
+                  <p style={styles.timelineDate}>July 2025</p>
                 </div>
               </div>
                <div style={styles.timelineItem}>
                 <div style={styles.timelineDot}></div>
                 <div style={styles.timelineInfo}>
                   <h4 style={styles.timelineEventTitle}>⁠Final Evaluation</h4>
-                  <p style={styles.timelineDate}>AUGUST</p>
+                  <p style={styles.timelineDate}>August 2025</p>
                 </div>
               </div>
             </div>
